@@ -15,5 +15,6 @@
     <string name="message_debug">Botão \'Debug\' pressionado</string>
     <string name="valor_cast">O cast foi realizado</string>
     <string name="valor_runtime">Corregido erro runtime</string>
+    <string name="valor_finally">Ocorreu o finally</string>
 
 </resources>

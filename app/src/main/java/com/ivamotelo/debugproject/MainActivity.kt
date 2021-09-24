@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         val currentThread = Thread.currentThread()
         currentThread.setUncaughtExceptionHandler { _, throwable ->
             //todo implemente aqui seu exception handler
+            val x = throwable.message
+            val cause = throwable.cause
         }
     }
 
@@ -88,6 +90,9 @@ class MainActivity : AppCompatActivity() {
                 var x = ""
                 val message: String = getString(R.string.valor_runtime)
                 edt_message?.setText(message)
+            } finally {
+                val message: String = getString(R.string.valor_finally)
+                val x = 50
             }
         }
     }
