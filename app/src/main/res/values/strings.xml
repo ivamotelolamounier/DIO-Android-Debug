@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Debug Project</string>
+    <string name="debug_log">Debug log</string>
+    <string name="error_log">Error log</string>
+    <string name="info_log">Info log!</string>
+    <string name="warning_log">Warning log!</string>
+    <string name="verbose_log">Verbose log!</string>
+    <string name="click_debug">Opa! cliquei no debug</string>
+    <string name="click_info">Opa! cliquei no info</string>
+    <string name="click_warning">Opa! cliquei no warning</string>
+    <string name="click_verbose">Opa! cliquei no verbose</string>
+    <string name="tag_click">click</string>
+    <string name="lista_index">Índice da lista corregido</string>
+    <string name="valor_nulo">Valor nulo corregido</string>
+    <string name="message_debug">Botão \'Debug\' pressionado</string>
+    <string name="valor_cast">O cast foi realizado</string>
+    <string name="valor_runtime">Corregido erro runtime</string>
+
+</resources>
